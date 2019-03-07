@@ -30,4 +30,4 @@ Note
     4)Run "terraform apply"
 
     5)Access Jenkins 
-       http://<public DNS or Elastic IP>:8080
+       http://public DNS or Elastic IP:8080
