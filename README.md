@@ -2,7 +2,7 @@
 
 Prerequisite
 -------------
-Terraform execution server should have terraform,git.
+Terraform,GIT should be installed in Terraform execution server.
 
 Note
 -----
