@@ -17,8 +17,8 @@ Note
     Mandatory variables to be set (You can set the default value of each variable or can define in a tfvars file and pass the file in command line)
     -----------------------------
         ami_id - id of AMI (Use Redhat, Centos or Fedora)
-        ssh_key_name - name of the EC2 Key Pair that can be used to SSH  
-        ssh_key_path - The path of an EC2 Key Pair that can be used to SSH (which should placed in terraform execution server)
+        ssh_key_name - name of the EC2 Key Pair that can be used to SSH Jenkins Server
+        ssh_key_path - The path of an EC2 Key Pair that wil be used to SSH Jenkins server(which should placed in terraform execution server)
         instance_type - instance_type (default-t2.micro)
         access_key- Access key of the user which has sufficient permissions to create resources in AWS
         secret_key- Secret key of the user which has sufficient permissions to create resources in AWS
